@@ -2,8 +2,6 @@ import 'package:flutter/cupertino.dart';
 import 'package:islami_application/core/theme/app_colors.dart';
 import 'package:islami_application/models/sura_data_models.dart';
 
-import '../../../../models/recent_data.dart';
-
 class RecentCardWidget extends StatelessWidget {
   final SuraData recentData;
   const RecentCardWidget({super.key,required this.recentData});
